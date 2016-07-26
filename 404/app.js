@@ -1,5 +1,5 @@
 var koa = require('koa');
-
+var x;
 var app = module.exports = koa();
 
 app.use(function *pageNotFound(next){
