@@ -1,3 +1,6 @@
+var x;
+var y;
+var z;
 var p;
 var app = require('./app');
 var request = require('supertest').agent(app.listen());
